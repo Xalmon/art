@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .images {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  @media (min-width: 1px) {
+    .images {
+      height: 14rem;
+    }
+  }
+  
+  @media (min-width: 1px) {
+    .images {
+      width: 14rem;
+    }
+  }
+  
+  .images {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    width: 350px;
+    height: 350px;
+  }
+  .title {
+    padding-top: 1.25rem; 
+    padding-bottom: 1.25rem; 
+    font-weight: 600;
+    font-size: 2.5rem; 
+    color: rgb(68, 71, 70); 
+  }

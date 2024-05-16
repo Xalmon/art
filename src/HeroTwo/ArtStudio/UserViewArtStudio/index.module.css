@@ -1,0 +1,133 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+
+.slick-prev,
+.slick-next {
+  color: red; 
+}
+
+
+
+
+#main{
+    background-image: url("../../../assets/images/watercolor.jpg");
+    padding: 5px;
+    font-size: 2.5rem;
+   
+   
+
+}&.g {
+    padding: 20px; 
+  }
+
+  .image{
+    width: 1600px;
+    background-image: url("../../../assets/images/watercolor.jpg");
+    border-radius: 25px;
+  }
+  .modal{
+    padding: 40rem;
+    position: relative;
+    bottom: 550px;
+    height: 50px;
+    
+  
+  }
+  .main{
+    background-color: black;
+  }
+
+  .name{
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color:   rgb(242, 242, 242);
+    width: 70%;
+    margin-left: 15%;
+  }
+  .font {
+    font-size: 2.9rem;
+    font-weight: 700; 
+    color: rgb(68, 71, 70);
+    font-weight: 1000;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .det{
+    margin-block-start: 3px;
+    width: 1800px;
+    margin-left: 50px;
+
+  }
+
+  .third {
+    padding-top: 2rem; 
+    display: flex; 
+    
+  }
+  
+  @media (min-width: 768px) { 
+    .third {
+      display: flex; 
+    }
+  }
+
+  .div {
+    margin-block-start: 10px;  
+    filter: var(--filter);  
+  }
+  
+  @media (min-width: 768px) {  
+    .div {
+      width: 20%;
+    }
+  }
+
+  .divs {
+    margin-block-start: 5px;  
+    filter: var(--filter);  
+  }
+  
+  @media (min-width: 768px) {  
+    .divs {
+      width: 80%;
+      padding-left: 10px;
+    }
+  }
+  .space-y-5 {
+    margin-block-start: 5px;
+  }
+  
+  @media (min-width: 768px) { 
+    .sticky {
+      position: sticky;
+      top: 28px; 
+    }
+  }
+
+  .accordion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .details {
+   margin-bottom: 50%;
+   margin-left: 30px;
+   position: relative;
+   bottom: 40px;
+   color:  rgb(68, 71, 70);;
+   
+  }
+  .details > p{
+    margin-top: 50px;
+  }
+  
+  @media (min-width: 1024px) {
+    .details {
+      margin-top: 1.25rem; 
+      max-width: 36rem; 
+    }
+  }
+  
+  

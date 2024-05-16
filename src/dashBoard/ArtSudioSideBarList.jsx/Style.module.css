@@ -1,0 +1,45 @@
+#main{
+    background-image: url(../../assets/images/watercolor.jpg);
+    background-size: cover; 
+    background-position: center; 
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+}
+
+#chart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 700px;
+    
+    
+  }
+
+  #com{
+    background-image: url("../../assets/images/watercolor.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 86vh;
+
+  }
+  #major{
+    background-image: url("../../assets/images/watercolor.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  #card{
+    background-image: url("../../assets/images/watercolor.jpg");
+    border: none;
+  }
+
+
+  

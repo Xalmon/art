@@ -1,0 +1,60 @@
+.main{
+    background-image: url("../../assets/images/watercolor.jpg");
+    height: 1375px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.second{
+    background-color:   rgb(242, 242, 242);;
+    height: 1085px;
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.login{
+    font-size: 50px;
+    font-weight: 1000;
+   color:rgb(68, 71, 70);
+
+}
+
+.paste{
+    width: 780px;
+    padding-left: 30px;
+    height: 90px;
+    font-size: 30px;
+   border-radius:  15px;
+    border: 1px solid rgb(68, 71, 70);
+    color: rgb(68, 71, 70);
+    outline: none; 
+    margin-top: 30px;
+    margin-left: 17%;
+    
+   
+    
+}
+
+::placeholder {
+    color: rgb(68, 71, 70);
+    text-indent: 60px;
+    
+}
+
+.suggestion{
+    color: rgb(68, 71, 70);
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-top: 25px;
+
+}
+.image{
+    width: 1000px;
+    height: 1090px;
+}
+

@@ -1,0 +1,9 @@
+.main{
+    background-image: url("../../assets/images/watercolor.jpg");
+}
+
+.slick li button:before {
+    width: 20px; /* Increase width for larger size */
+    height: 20px; /* Increase height for larger size */
+    border-radius: 50%; /* Maintain circular shape */
+  }

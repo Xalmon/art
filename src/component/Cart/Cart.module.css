@@ -1,0 +1,17 @@
+
+
+.main{
+    background-image: url("../../assets/images/watercolor.jpg");
+    /* display: flex;
+    gap: 50%; */
+}
+.image{
+    background-image: url("../../assets/images/cartImage.jpg");
+    height: 560px;
+    background-repeat: no-repeat;
+    
+}
+
+#sec{
+    background-color:   rgb(242, 242, 242);;
+}

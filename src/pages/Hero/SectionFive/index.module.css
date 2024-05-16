@@ -1,0 +1,72 @@
+.main{
+    background-color:rgb(242, 242, 242) ;
+   position: relative;
+   bottom: 300px;
+   height: 1670px;
+
+}
+.class{
+    width: 1250px;
+}
+.beyond{
+    letter-spacing: 0.38em;
+    font-size: 60px;
+   color: rgb(68, 71, 70);
+   opacity: 0.8;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.group{
+    font-size: 43px;
+    color: rgb(68, 71, 70);
+    opacity: 0.9;
+    letter-spacing: 0.1em;
+}
+.march{
+    font-size: 38px;
+    color: rgb(68, 71, 70);
+    opacity: 0.9; 
+    letter-spacing: 0.2em;
+
+}
+.rele{
+    margin-top: 60px;
+    font-size: 32px;
+    color: rgb(68, 71, 70);
+    width: 1210px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 60px;
+
+}
+.read{
+    margin-top: 55px;
+    font-size: 32px;
+    color: rgb(68, 71, 70);
+    opacity: 0.6; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1em;
+}
+.but{
+    position: relative;
+    bottom: 25px;
+}
+.tiz{
+    color:rgb(68, 71, 70) ;
+    font-size: 25px;
+    font-family:"Arial", sans-serif;
+    letter-spacing: 0.1em;
+    width: 1300px;
+    font-style: italic; 
+}
+     
+
+.contain{
+    display: flex;
+    position: relative;
+  top: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+}

@@ -1,0 +1,44 @@
+.main{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+
+    
+}
+.major{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.modal{
+    /* background-color: white; */
+    background-image: url("../../assets/images/watercolor.jpg");
+    padding: 2px;
+    border-radius: var(--border-radius);
+    margin-bottom: 100px;
+    position: relative;
+    left: 100px;
+    height: 1180px;
+    border-radius: 10px;
+   
+    
+}
+.button{
+    color:black ;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+     text-align: end;
+     font-weight: 1000;
+    position: relative;
+    left: 100px;
+
+}

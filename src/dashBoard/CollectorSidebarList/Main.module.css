@@ -1,0 +1,5 @@
+#main{
+    background-image: url(../../assets/images/watercolor.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; 
+}

@@ -1,0 +1,55 @@
+.stay{
+    font-size: 60px;
+    font-family: Georgia, serif;
+    font-weight: 900;
+    color: rgb(68, 71, 70);
+    text-align: center;
+    
+
+}
+.paste{
+    border: 3px solid rgb(68, 71, 70);
+    padding: 20px;
+    border-radius: 25px ;
+    font-size: 30px;
+    padding-right: 170%;
+    position: relative;
+    right: 90%;
+    
+   
+
+    
+}
+
+::placeholder {
+    color: rgb(68, 71, 70);
+    text-indent: 60px;
+    
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../assets/images/watercolor.jpg");
+    position: relative;
+    bottom: 400px;
+    height: 300px;
+    
+    
+    
+}
+
+.contain{
+    position: relative;
+    top: 400px;
+    background-image: url("../../../assets/images/watercolor.jpg");
+    width: 2858px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}

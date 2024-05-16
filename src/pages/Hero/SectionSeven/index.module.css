@@ -1,0 +1,19 @@
+.view{
+    cursor: pointer;
+    color:rgb(68, 71, 70) ;
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    text-align: center;
+    position: relative;
+    top: 150px;
+   
+
+}
+.main{
+   background-color: rgb(242, 242, 242);
+   position: relative;
+   bottom: 400px;
+   height: 300px;
+}

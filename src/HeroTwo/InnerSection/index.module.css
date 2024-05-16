@@ -1,0 +1,121 @@
+
+
+.banner {
+    position: relative;
+    z-index: -50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/images/sculpture.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 104vh;
+  }
+  .contain {
+    width: 50vw; 
+    z-index: 10; 
+    text-align: center; 
+  }
+  .art {
+    font-size: 9.75rem ; 
+    font-weight: bold; 
+    z-index: 10;
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
+    color: beige;
+    font-style: italic;
+  }
+
+  @media (min-width: 1024px) { /* Applies styles for screens 1024px and wider */
+    .art {
+      font-size: 6xl; /* Maintains font size at 6 extra-large for larger screens */
+    }
+  }
+
+  .unlock {
+    z-index: 10; 
+    color: #d3d3d3; 
+    font-size: 4rem; 
+  }
+
+  
+  @media (min-width: 1024px) { 
+    .arts {
+      font-size: 8xl;
+    }
+  }
+
+  .cover {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%;
+    height: 104vh;
+    /* background-color: black;  */
+    background-image: url("../../assets/images/watercolor.jpg");
+    opacity: 0.3;
+    
+  }
+  .fade{
+    
+  }
+
+  .top {
+    font-size: 2.5rem; 
+    font-weight: semibold; 
+    color: rgb(68, 71, 70); 
+    padding: 1rem 0 2.5rem;
+    background-image: url("../../assets/images/watercolor.jpg");
+  }
+
+  .sec {
+    padding: 1rem; /* Equivalent to p-10 */
+    background-image: url("../../assets/images/watercolor.jpg");
+  
+    /* background-color: black; */
+    
+    
+  
+    @media (min-width: 768px) { 
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .order {
+    padding-left: 1.25rem; 
+    padding-top: 2.5rem; 
+    background-image: url("../../assets/images/watercolor.jpg");
+   
+  
+    @media (min-width: 768px) { /* Equivalent to 1g: (screen smallest) */
+      padding-left: 5rem; /* Equivalent to 1g:px-20 */
+    }
+  }
+
+  .text {
+    font-size: 2.5rem; 
+    font-weight: semibold;
+    color:rgb(68, 71, 70); 
+    padding-bottom: 2rem;
+  }
+
+  .artStudio {
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 1.25rem; 
+    position: relative;
+    bottom: 23px;
+    
+  }
+  
+  
+  

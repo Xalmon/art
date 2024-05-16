@@ -1,0 +1,21 @@
+.image{
+    width: 1200px;
+    height: 1260px;
+}
+.art{
+    /* color: rgb(68, 71, 70); */
+    font-weight: 1000;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    
+}
+.h {
+    font-size: 35px;
+    width: 1350px;
+}
+.main{
+    display: flex;
+    gap: 40px;
+    background-image: url("../../../assets/images/watercolor.jpg");
+    height: 1800px;
+}
